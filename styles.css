@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.quote-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#quoteText {
+    font-size: 1.5em;
+    color: #333;
+}
+
+#quoteAuthor {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #777;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#prevBtn, #nextBtn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    background-color: #555;
+}
